@@ -1,20 +1,14 @@
-using DevExpress.XtraReports.UI;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using DevExpress.XtraReports.UI;
 
 namespace CreateSimpleReportInCode {
     class Program {
+        [STAThread]
         static void Main(string[] args) {
-            var report = DxReportHelper.GetMyReport();
-        }
-    }
-    public class DxReportHelper {
-        public static XtraReport GetMyReport() {
-            // todo
-            return null;
+            XtraReport report = ReportCreator.CreateReport();
+
+            ReportPrintTool printTool = new ReportPrintTool(report);
+            printTool.ShowRibbonPreviewDialog();
         }
     }
 }

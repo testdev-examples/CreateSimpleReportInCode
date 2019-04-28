@@ -7,7 +7,6 @@
     <ProjectGuid>{3190C2C9-DEE6-4430-86C5-4E7B0D740D37}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>CreateSimpleReportInCode</RootNamespace>
-    <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
